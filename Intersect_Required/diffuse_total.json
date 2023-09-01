@@ -1,115 +1,121 @@
 {
-    "name": "root",
-    "globalData": {
-      "ambientCoeff": 0.2,
-      "diffuseCoeff": 0.5,
-      "specularCoeff": 0.5,
-      "transparentCoeff": 0
+  "name": "root",
+  "globalData": {
+    "ambientCoeff": 0,
+    "diffuseCoeff": 0.5,
+    "specularCoeff": 0,
+    "transparentCoeff": 0
+  },
+  "cameraData": {
+    "position": [0.0, 0.0, 5.0],
+    "up": [0.0, 1.0, 0.0],
+    "heightAngle": 45.0,
+    "focus": [0.0, 0.0, 0.0]
+  },
+  "groups": [
+    {
+      "lights": [
+        {
+          "type": "directional",
+          "color": [1.0, 1.0, 1.0],
+          "direction": [-2.0, -4.0, -6.0]
+        }
+      ]
     },
-    "cameraData": {
-      "position": [0, 0, 5],
-      "up": [0, 1, 0],
-      "focus": [0, 0, 0],
-      "heightAngle": 45
+    {
+      "translate": [9.0, -3.0, 1.0],
+      "lights": [
+        {
+          "type": "point",
+          "color": [0.5, 0.5, 0.5],
+          "attenuationCoeff": [1, 0, 0]
+        }
+      ]
     },
-  
-    "groups": [
-      {
-        "lights": [
-          {
-            "type": "directional",
-            "direction": [-2, -4, -6],
-            "color": [1, 1, 1]
-          }
-        ]
-      },
-      {
-        "name": "Light Group 1",
-        "translate": [9, -3, 1],
-        "lights": [
-          {
-            "type": "point",
-            "attenuationCoeff": [1, 0, 0],
-            "color": [0.5, 0.5, 0.5]
-          }
-        ]
-      },
-      {
-        "name": "Light Group 2",
-        "translate": [-9, -3, 1],
-        "lights": [
-          {
-            "type": "point",
-            "attenuationCoeff": [1, 0, 0],
-            "color": [0.5, 0.5, 0.5]
-          }
-        ]
-      },
-      {
-        "name": "Cylinder Alone Group",
-        "translate": [0, 0, -5],
-        "scale": [1.5, 1.5, 1.5],
-        "primitives": [
-          {
-            "type": "cylinder",
-            "ambient": [0, 0.5, 0],
-            "diffuse": [0, 1, 0],
-            "specular": [1, 1, 1],
-            "shininess": 30
-          }
-        ]
-      },
-      {
-        "name": "Parent to a few",
-        "translate": [0, 0, -8],
-        "rotate": [0, 0, 3.14],
-        "groups": [
-          {
-            "name": "Sphere Alone Group",
-            "translate": [4, 0, 0],
-            "scale": [3, 3, 3],
-            "primitives": [
-              {
-                "type": "sphere",
-                "diffuse": [0, 1, 1]
-              }
-            ]
-          },
-          {
-            "name": "Cone Alone Group",
-            "translate": [-4, 0, 0],
-            "scale": [3, 3, 3],
-            "primitives": [
-              {
-                "type": "cone",
-                "diffuse": [1, 1, 0]
-              }
-            ]
-          },
-          {
-            "name": "Cube Alone Group",
-            "translate": [0, 4, 0],
-            "scale": [3, 3, 3],
-            "primitives": [
-              {
-                "type": "cube",
-                "diffuse": [1, 0, 1]
-              }
-            ]
-          },
-          {
-            "name": "Another Cone Alone Group",
-            "translate": [0, -4, 0],
-            "scale": [3, 3, 3],
-            "primitives": [
-              {
-                "type": "cone",
-                "diffuse": [1, 1, 1]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+    {
+      "translate": [-9.0, -3.0, 1.0],
+      "lights": [
+        {
+          "type": "point",
+          "color": [0.5, 0.5, 0.5],
+          "attenuationCoeff": [1, 0, 0]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "translate": [0.0, 0.0, -5.0],
+          "scale": [1.5, 1.5, 1.5],
+          "primitives": [
+            {
+              "type": "cylinder",
+              "ambient": [0.0, 0.5, 0.0],
+              "diffuse": [0.0, 1.0, 0.0],
+              "specular": [1.0, 1.0, 1.0],
+              "shininess": 30.0
+            }
+          ]
+        },
+        {
+          "translate": [0.0, 0.0, -8.0],
+          "rotate": [0.0, 0.0, 1.0, 90.0],
+          "groups": [
+            {
+              "translate": [4.0, 0.0, 0.0],
+              "scale": [3.0, 3.0, 3.0],
+              "primitives": [
+                {
+                  "type": "sphere",
+                  "ambient": [0.0, 0.5, 0.5],
+                  "diffuse": [0.0, 1.0, 1.0],
+                  "specular": [1.0, 1.0, 1.0],
+                  "shininess": 30.0
+                }
+              ]
+            },
+            {
+              "translate": [-4.0, 0.0, 0.0],
+              "scale": [3.0, 3.0, 3.0],
+              "primitives": [
+                {
+                  "type": "cone",
+                  "ambient": [0.5, 0.5, 0.0],
+                  "diffuse": [1.0, 1.0, 0.0],
+                  "specular": [1.0, 1.0, 1.0],
+                  "shininess": 30.0
+                }
+              ]
+            },
+            {
+              "translate": [0.0, 4.0, 0.0],
+              "scale": [3.0, 3.0, 3.0],
+              "primitives": [
+                {
+                  "type": "cube",
+                  "ambient": [0.5, 0.0, 0.5],
+                  "diffuse": [1.0, 0.0, 1.0],
+                  "specular": [1.0, 1.0, 1.0],
+                  "shininess": 30.0
+                }
+              ]
+            },
+            {
+              "translate": [0.0, -4.0, 0.0],
+              "scale": [3.0, 3.0, 3.0],
+              "primitives": [
+                {
+                  "type": "cone",
+                  "ambient": [0.5, 0.5, 0.5],
+                  "diffuse": [1.0, 1.0, 1.0],
+                  "specular": [1.0, 1.0, 1.0],
+                  "shininess": 30.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
