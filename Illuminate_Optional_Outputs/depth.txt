@@ -1,0 +1,3 @@
+in raytracer.h, line 9
+
+#define RAY_TRACE_MAX_DEPTH 4
