@@ -3,7 +3,7 @@
     "ambientCoeff": 0.5,
     "diffuseCoeff": 0.5,
     "specularCoeff": 0.5,
-    "transparentCoeff": 0
+    "transparentCoeff": 1
   },
   "cameraData": {
     "position": [5, 1, 5],
@@ -31,12 +31,12 @@
           "direction": [-1, -0.2, 0]
         },
         {
-          "color": [1, 0, 1],
+          "color": [0, 0, 1],
           "type": "directional",
           "direction": [1, -0.2, -1]
         },
         {
-          "color": [0, 1, 1],
+          "color": [0, 0, 1],
           "type": "directional",
           "direction": [-1, -0.2, 1]
         }
