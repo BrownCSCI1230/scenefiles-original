@@ -47,7 +47,7 @@
               "shininess": 30.0,
               "reflective": [0.9, 0.9, 0.9],
               "blend": 1.0,
-              "textureFile": "file:src/../../../image/board.png",
+              "textureFile": "file:src/../../../image_source/board.png",
               "textureU": 4.0,
               "textureV": 4.0
             }

@@ -55,7 +55,7 @@
               "shininess": 21.1968,
               "reflective": [0.75, 1.0, 0.75],
               "blend": 0.75,
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../image_source/marsTexture.png",
               "textureU": 1.0,
               "textureV": 1.0
             }
@@ -71,7 +71,7 @@
               "shininess": 21.1968,
               "reflective": [0.75, 1.0, 0.75],
               "blend": 0.75,
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../image_source/marsTexture.png",
               "textureU": 1.0,
               "textureV": 1.0
             }
@@ -87,7 +87,7 @@
               "shininess": 21.1968,
               "reflective": [0.75, 1.0, 0.75],
               "blend": 0.75,
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../image_source/marsTexture.png",
               "textureU": 1.0,
               "textureV": 1.0
             }
@@ -103,7 +103,7 @@
               "shininess": 21.1968,
               "reflective": [0.75, 1.0, 0.75],
               "blend": 0.75,
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../image_source/marsTexture.png",
               "textureU": 1.0,
               "textureV": 1.0
             }
@@ -119,7 +119,7 @@
               "shininess": 21.1968,
               "reflective": [0.75, 1.0, 0.75],
               "blend": 0.75,
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../image_source/marsTexture.png",
               "textureU": 1.0,
               "textureV": 1.0
             }
@@ -135,7 +135,7 @@
               "shininess": 21.1968,
               "reflective": [0.75, 1.0, 0.75],
               "blend": 0.75,
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../image_source/marsTexture.png",
               "textureU": 1.0,
               "textureV": 1.0
             }
@@ -151,7 +151,7 @@
               "shininess": 21.1968,
               "reflective": [0.75, 1.0, 0.75],
               "blend": 0.75,
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../image_source/marsTexture.png",
               "textureU": 1.0,
               "textureV": 1.0
             }
@@ -167,7 +167,7 @@
               "shininess": 21.1968,
               "reflective": [0.75, 1.0, 0.75],
               "blend": 0.75,
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../image_source/marsTexture.png",
               "textureU": 1.0,
               "textureV": 1.0
             }
@@ -183,7 +183,7 @@
               "shininess": 21.1968,
               "reflective": [0.75, 1.0, 0.75],
               "blend": 0.75,
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../image_source/marsTexture.png",
               "textureU": 1.0,
               "textureV": 1.0
             }
@@ -199,7 +199,7 @@
               "shininess": 21.1968,
               "reflective": [0.75, 1.0, 0.75],
               "blend": 0.75,
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../image_source/marsTexture.png",
               "textureU": 1.0,
               "textureV": 1.0
             }

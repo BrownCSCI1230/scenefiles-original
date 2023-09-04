@@ -24,7 +24,7 @@
           "diffuse": [1, 0.75, 0.75],
           "shininess": 25,
           "specular": [1, 1, 1],
-          "textureFile": "file:src/../../image/marsTexture.png",
+          "textureFile": "file:src/../../../image_source/marsTexture.png",
           "textureU": 1,
           "textureV": 1,
           "blend": 0.75
@@ -45,7 +45,7 @@
               "diffuse": [0.75, 0.75, 1],
               "shininess": 25,
               "specular": [1, 1, 1],
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../../image_source/marsTexture.png",
               "textureU": 1,
               "textureV": 1,
               "blend": 0.75
@@ -112,7 +112,7 @@
               "diffuse": [0.75, 1, 0.75],
               "shininess": 25,
               "specular": [1, 1, 1],
-              "textureFile": "file:src/../../image/marsTexture.png",
+              "textureFile": "file:src/../../../image_source/marsTexture.png",
               "textureU": 1,
               "textureV": 1,
               "blend": 0.75
@@ -205,7 +205,7 @@
           "diffuse": [1, 0.75, 0.75],
           "shininess": 25,
           "specular": [1, 1, 1],
-          "textureFile": "file:src/../../image/marsTexture.png",
+          "textureFile": "file:src/../../../image_source/marsTexture.png",
           "textureU": 1,
           "textureV": 1,
           "blend": 0.75
