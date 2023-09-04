@@ -6,10 +6,10 @@
     "transparentCoeff": 0
   },
   "cameraData": {
-    "position": [3, 0, 3],
+    "position": [5, 0, 5],
     "up": [0, 1, 0],
-    "heightAngle": 0,
-    "look": [1, 0, 1]
+    "heightAngle": 30,
+    "look": [-1, 0, -1]
   },
   "groups": [
     {

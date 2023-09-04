@@ -6,10 +6,10 @@
     "transparentCoeff": 0
   },
   "cameraData": {
-    "position": [3, 0, 3],
+    "position": [5, 1, 5],
     "up": [0, 1, 0],
-    "heightAngle": 0,
-    "look": [1, 0, 1]
+    "heightAngle": 30,
+    "look": [-1, 0, -1]
   },
   "groups": [
     {
@@ -31,12 +31,12 @@
           "direction": [-1, -0.2, 0]
         },
         {
-          "color": [0, 0, 1],
+          "color": [1, 0, 1],
           "type": "directional",
           "direction": [1, -0.2, -1]
         },
         {
-          "color": [0, 0, 1],
+          "color": [0, 1, 1],
           "type": "directional",
           "direction": [-1, -0.2, 1]
         }
@@ -70,8 +70,8 @@
     },
     {
       "name": "Table",
-      "translate": [0, -0.5, 0],
-      "scale": [10, 0, 10],
+      "translate": [0, -1, 0],
+      "scale": [10, 0.5, 10],
       "primitives": [
         {
           "type": "cube",
