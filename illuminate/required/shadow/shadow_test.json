@@ -109,7 +109,7 @@
               "type": "cube",
               "diffuse": [0.4, 0.4, 0.4],
               "blend": 1.0,
-              "textureFile": "file:src/../../../image_source/cheese.png",
+              "textureFile": "textures/cheese.png",
               "textureU": 1.0,
               "textureV": 1.0
             }
@@ -124,7 +124,7 @@
               "specular": [1.0, 1.0, 1.0],
               "shininess": 30.0,
               "blend": 0.3,
-              "textureFile": "file:src/../../../image_source/liqmtl.png",
+              "textureFile": "textures/liqmtl.png",
               "textureU": 1.0,
               "textureV": 1.0
             }

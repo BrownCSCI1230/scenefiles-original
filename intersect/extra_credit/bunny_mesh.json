@@ -35,7 +35,7 @@
                 {
                   "type": "mesh",
                   "ambient": [0.2, 0.2, 0.7],
-                  "meshFile": "file:src/../../mesh_source/bunny.obj",
+                  "meshFile": "meshes/bunny.obj",
                   "diffuse": [0.23, 0.33, 0.99],
                   "specular": [1.0, 1.0, 1.0],
                   "shininess": 30.0

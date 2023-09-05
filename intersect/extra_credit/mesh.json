@@ -31,7 +31,7 @@
             {
               "type": "mesh",
               "ambient": [0.4, 0.4, 0.4],
-              "meshFile": "mesh/dragon.obj",
+              "meshFile": "meshes/dragon.obj",
               "diffuse": [0.43, 0.73, 0.99],
               "specular": [1.0, 1.0, 1.0],
               "shininess": 30.0

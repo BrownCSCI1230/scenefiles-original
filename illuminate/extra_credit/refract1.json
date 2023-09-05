@@ -58,7 +58,7 @@
               "reflective": [0.2, 0.2, 0.4],
               "transparent": [0.6, 0.6, 0.8],
               "blend": 0.3,
-              "textureFile": "file:src/../../image_source/earth.png",
+              "textureFile": "textures/earth.png",
               "textureU": 1.0,
               "textureV": 1.0,
               "ior": 1.01
@@ -102,7 +102,7 @@
               "diffuse": [0.0, 1.0, 1.0],
               "reflective": [0.3, 0.3, 0.3],
               "blend": 0.9,
-              "textureFile": "file:src/../../image_source/bark.png",
+              "textureFile": "textures/bark.png",
               "textureU": 1.0,
               "textureV": 5.0
             }

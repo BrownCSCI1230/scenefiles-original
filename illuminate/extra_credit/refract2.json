@@ -98,7 +98,7 @@
               "diffuse": [0.0, 1.0, 1.0],
               "reflective": [0.3, 0.3, 0.3],
               "blend": 0.9,
-              "textureFile": "file:src/../../image_source/check.png",
+              "textureFile": "textures/check.png",
               "textureU": 3.0,
               "textureV": 3.0
             }
