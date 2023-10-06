@@ -14,14 +14,14 @@
   },
   "groups": [
     {
+      "translate": [0.0, 0.0, 4.0],
       "lights": [
         {
           "type": "point",
           "color": [1.0, 1.0, 1.0],
-          "attenuationCoeff": [1, 0, 0]
+          "attenuationCoeff": [1.0, 0.0, 0.0]
         }
-      ],
-      "translate": [0, 0, 4]
+      ]
     },
     {
       "groups": [
@@ -30,7 +30,7 @@
           "rotate": [0.0, 1.0, 0.0, 0.0],
           "primitives": [
             {
-              "type": "cube",
+              "type": "cylinder",
               "ambient": [0.3, 0.0, 0.0],
               "specular": [0.0, 0.0, 0.0],
               "reflective": [0.0, 0.0, 0.0],
@@ -46,7 +46,7 @@
           "rotate": [0.0, 1.0, 0.0, 90.0],
           "primitives": [
             {
-              "type": "cube",
+              "type": "cylinder",
               "ambient": [0.3, 0.0, 0.0],
               "specular": [0.0, 0.0, 0.0],
               "reflective": [0.0, 0.0, 0.0],
@@ -62,7 +62,7 @@
           "rotate": [0.0, 1.0, 0.0, 180.0],
           "primitives": [
             {
-              "type": "cube",
+              "type": "cylinder",
               "ambient": [0.3, 0.0, 0.0],
               "specular": [0.0, 0.0, 0.0],
               "reflective": [0.0, 0.0, 0.0],
@@ -78,7 +78,7 @@
           "rotate": [0.0, 1.0, 0.0, 270.0],
           "primitives": [
             {
-              "type": "cube",
+              "type": "cylinder",
               "ambient": [0.3, 0.0, 0.0],
               "specular": [0.0, 0.0, 0.0],
               "reflective": [0.0, 0.0, 0.0],
@@ -94,7 +94,7 @@
           "rotate": [1.0, 0.0, 0.0, 90.0],
           "primitives": [
             {
-              "type": "cube",
+              "type": "cylinder",
               "ambient": [0.3, 0.0, 0.0],
               "specular": [0.0, 0.0, 0.0],
               "reflective": [0.0, 0.0, 0.0],
@@ -110,7 +110,7 @@
           "rotate": [1.0, 0.0, 0.0, -90.0],
           "primitives": [
             {
-              "type": "cube",
+              "type": "cylinder",
               "ambient": [0.3, 0.0, 0.0],
               "specular": [0.0, 0.0, 0.0],
               "reflective": [0.0, 0.0, 0.0],

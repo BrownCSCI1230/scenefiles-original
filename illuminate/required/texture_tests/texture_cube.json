@@ -49,13 +49,13 @@
           "translate": [0.0, 0.0, 0.0],
           "primitives": [
             {
-              "type": "cylinder",
+              "type": "cube",
               "diffuse": [1.0, 1.0, 1.0],
               "specular": [1.0, 1.0, 1.0],
               "shininess": 30.0,
               "reflective": [1.0, 1.0, 1.0],
               "blend": 1.0,
-              "textureFile": "textures/mandril.png",
+              "textureFile": "textures/board.png",
               "textureU": 2.0,
               "textureV": 2.0
             }
